@@ -11,7 +11,7 @@ Analyze-Algorithms
 ├── generateInput.cpp
 ├── input.txt
 ├── plotGraph.ipynb
-├── timeComplexityGraph.py
+├── plotGraph.py
 ```
 
 ## Files Description
