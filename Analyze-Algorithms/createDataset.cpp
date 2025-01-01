@@ -96,7 +96,7 @@ void createDataset() {
         auto start = std::chrono::high_resolution_clock::now();
 
         // Algorithm for which the execution time is to be measured
-        // void algorithm(input_data);
+        // algorithm(input_data);
 
         // Saves the timestamp after the execution of the function
         auto stop = std::chrono::high_resolution_clock::now();
