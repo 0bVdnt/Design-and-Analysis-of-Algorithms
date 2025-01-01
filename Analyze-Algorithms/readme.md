@@ -5,7 +5,7 @@ This repository contains code and data for analyzing the time complexity of algo
 ## Directory Structure
 
 ```
-.
+Analyze-Algorithms
 ├── createDataset.cpp
 ├── dataSheet.csv
 ├── generateInput.cpp
@@ -18,32 +18,16 @@ This repository contains code and data for analyzing the time complexity of algo
 
 - **createDataset.cpp**: Generates random data, measures the execution time of an algorithm, and saves the results to a CSV file.
 - **dataSheet.csv**: Contains the input sizes and corresponding execution times.
-- **generateInput.cpp**: Generates input data for testing algorithms and saves it to 
-
-input.txt
-
-.
+- **generateInput.cpp**: Generates input data for testing algorithms and saves it to input.txt
 - **input.txt**: Contains the input sizes for testing.
-- **plotGraph.ipynb**: Jupyter notebook for plotting the time complexity graph using the data from 
-
-dataSheet.csv
-
-.
-- **timeComplexityGraph.py**: Python script for plotting the time complexity graph using the data from 
-
-dataSheet.csv
-
-.
+- **plotGraph.ipynb**: Jupyter notebook for plotting the time complexity graph using the data from dataSheet.csv
+- **plotGraph.py**: Python script for plotting the time complexity graph using the data from dataSheet.csv
 
 ## Usage
 
 ### Generating Input Data
 
-To generate input data, compile and run 
-
-generateInput.cpp
-
-:
+To generate input data, compile and run generateInput.cpp:
 
 ```sh
 g++ generateInput.cpp -o generateInput
@@ -52,11 +36,7 @@ g++ generateInput.cpp -o generateInput
 
 ### Creating Dataset
 
-To create a dataset and measure the execution time of an algorithm, compile and run 
-
-createDataset.cpp
-
-:
+To create a dataset and measure the execution time of an algorithm, compile and run createDataset.cpp:
 
 ```sh
 g++ createDataset.cpp -o createDataset
@@ -68,19 +48,10 @@ g++ createDataset.cpp -o createDataset
 You can plot the time complexity graph using either the Jupyter notebook or the Python script.
 
 #### Using Jupyter Notebook
-
-Open 
-
-plotGraph.ipynb
-
- in Jupyter Notebook and run the cells.
+    Open plotGraph.ipynb in Jupyter Notebook and run the cells.
 
 #### Using Python Script
-
-Run the 
-
-timeComplexityGraph.py
-
+    Run the timeComplexityGraph.py
  script:
 
 ```sh
@@ -100,18 +71,12 @@ Install the Python dependencies using pip:
 pip install pandas matplotlib
 ```
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ## Authors
 
-- [Your Name](https://github.com/yourusername)
+- Vedant Neve(https://github.com/VedantNeve)
 
 ---
-
-Feel free to customize this README file as per your requirements.
