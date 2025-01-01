@@ -77,6 +77,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Authors
 
-- Vedant Neve(https://github.com/VedantNeve)
+- Vedant Neve (https://github.com/VedantNeve)
 
 ---
