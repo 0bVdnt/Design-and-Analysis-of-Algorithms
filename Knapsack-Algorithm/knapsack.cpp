@@ -188,11 +188,11 @@ class Knapsack {
 
     int knapsackDPSpaceOptimized() {
         std::vector<int> dp(capacity + 1, 0);
-        
-        for(int i = 0; i < noOfItems; i++)
-            for(int wt = capacity; wt >= weights[i]; wt--)    
+        for(int i = 0; i < noOfItems; i++) {
+            for(int wt = capacity; wt >= weights[i]; wt--) {
                 dp[wt] = std::max(dp[wt], values[i] + dp[wt - weights[i]]);
-        
+            }
+        }
         return dp[capacity];
     }
 };
